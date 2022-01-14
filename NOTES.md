@@ -1,0 +1,127 @@
+## MICROSOFT AZURE: The Big Picture by Matt Milner
+
+- COURSE OVERVIEW:
+  - Gain a conceptual understanding of the various services available in Azure and how to leverage them within solutions.
+
+- UNDERSTANDING MICROSOFT AZURE:
+    - IAAS: Infrastructure as a Service. e.g.: VMs. Storage.
+    - PAAS: Platform as a Service.
+    - SAAS: Software as a Service.
+    - Cloud Computing:
+        - Reduced time & cost to provision.
+        - Increased flexibility in scale & deployment.
+        - Lower overall TCO. (Total cost of ownership.)
+        - New solutions possible.
+    - Microsoft's Cloud: Azure: Data storage/processing. Integration. Networking. Management. Identity.
+    - Understanding Azure: 
+        - Compute. Data Storage. Data Processing. Data Analytics. Integration. Network. 
+        - Identity. DevOps. Mixed Reality. Mobile Apps. IoT. (& Managerial Considerations.)
+
+- RUNNING CODE IN AZURE: COMPUTE:
+    - Running Code: Compute: (1) CPU & Memory. (2) Application code execution.
+        - Virtual machines. Provision. Via Images. Scale Sets. Availability Sets. Managed Disks.
+        - App services. Web App Framework Choice. Flexible Deployments. Scaling. Healing. (Deployment) Slots.
+        - Containers. Azure Kubernetes Service. (AKS.) Azure Container Instances. Azure Container Registry.
+        - Serverless. Azure Functions. Logic Apps. Event Grid.
+        - Overlapping Solutions: Container Instances Serverless. Service Fabric. e.g.: COntainers, executables, web apps.
+        - Compute at Scale: Batch. HDInsight.
+    - Reviewing Compute Examples: (1) VM Migration. (2) Kubernetes Cluster: Deploy & Manage with Kubernetes Tools. (3) Scalable Web Application.
+
+- STORING & PROCESSING DATA IN AZURE:
+    - Understanding Data Storage in Azure:
+        - Cloud databases. Scalable. Available. Global.
+            - Self-managed: VM or Container. Predefined image. Patching.
+            - Service-based: Provision an instance. Choose scale. Managed by Azure.
+        - Relational databases:
+            - Azure SQL. My SQL. Maria DB. PostgreSQL.
+        - Other data storage: Table storage. BLOB storage. Queues. Redis Cache. MongoDB.
+    - Exploring Data Storage Options:
+        - Azure Cosmos DB: Multi-model storage. Graph/Gremlin. Table. Cassandra. Document (MongoDB/SQL.) Globally distributed.
+        - Azure Data Lakes. Large-scale data storage built for analytics. File-based. BLOB-based.
+    - Processing Data in Azure:
+        - Ingestion Event Hibs. Moving/ETL: Data factory.
+    - Reviewing Data Storage and Processing Examples:
+
+- ANALYZING DATA IN AZURE:
+    - Analyzing Data:
+        - SQL Data Warehouse. Analysis Services.
+        - Stream Analytics. Real-time data analysis. High-volume message processing. Ingest, analyze, output.
+        - Azure HD Insight: Spark. Hadoop. Hive. Storm. Kafka. HBase. (Big Data.)
+        - Azure Data Bricks: Could-optimized Spark service. Deep Azure integration.
+    - Machine Learning and Visualizing Data:
+        - Starting points for all levels. Build & train models. Deploy & manage.
+        - Cognitive services: Decision. Speech. Language. Vision. Search.
+        - Power BI. 
+        - Azure Synapse: SQL Data Warehouse & Data Bricks. All your storage. Data movement (ETL.) Machine learning.
+    - Reviewing Data Analysis Examples:
+
+- INTEGRATING APPLICATIONS IN AZURE:
+    - Understanding Integration in Azure:
+        - Connecting systems & applications. Cloud integrations: Within. Clou to data center. Between clouds. Cloud to SaaS.
+    - Messaging and Workflow:
+        - Service Bus: Brokered or relayed messaging.
+        - Event Grid: - Publish/Subscribe event notification.
+        - API Management: Publishing, securing, & managing APIs.
+        - Logic Apps - Workflow: Orchestrating messaging interactions. Control flow.
+        - Integration Accounts: Enterprise file formats. XML/JSON transformations. Partner management.
+    - Reviewing Integration Examples:
+        - Integration is all about connecting systems. Messaging & workflow are crucial. Integration accounts extend capabilities.
+
+- NETWORKING IN AZURE:
+    - Understanding Azure Networking:
+        - Virtual networks. Public IP addresses. Network security groups. Service endpoint policies.
+    - Exploring Azure Networking Services:
+        - Connecting environments: Express route. On-premise data gateway.
+        - CDN. Traffic manager. Load balancer. DNS zones.
+        - Edge services: DDOS protection. Application gateway. Front door (Microservices.)
+    - Reviewing Network Examples:
+
+- MANAGING & MONITORING AZURE RESOURCES:
+    - Understanding Azure Management:
+        - Subscription & accounts with management groups. Portal (with blades.) CLI/Powershell. Cloud Shell. Mobile App.
+        - Backup & site recovery. Automation & scheduling. Policy. RBAC. (Role-based Access Control.)
+    - Management Tools:
+        - Azure Resource Manager: 
+            - Define diffrent resources in a template.
+            - Resource groups, locations, services.
+            - Create relationships between resources.
+            - Deploy template with parameters.
+        - Azure Deployment Manager:
+            - Coordinate deployment of ARM.
+            - Define service topology.
+            - Define rollout steps.
+        - Monitoring & alerts:
+            - Monitor. Network watcher. Alerts.
+    - Reviewing Management Examples:
+
+- DEVELOPING FOR AZURE:
+    - Understanding Azure Development:
+        - Most services have REST/Web APIs, providing cross-platform access. Client SDKs wrap APIs. & Web portal provides *some* development.
+        - SDKs. Developer tools. Container development. Build & deploy. Azure service coverage varies per language-specific SDKs.
+        - Visual studio. Eclipse. VS Code. IntelliJ.
+    - Working with Containers and Deployment:
+        - Local development via Docker. Cloud deployment. Azure Dev Spaces. (Use cloud to build for the cloud.)
+        - Azure DevOps. Boards. Repos. Pipelines. Test Plans.
+    - Reviewing Development Examples:
+
+- USING IDENTITY & SECURITY IN AZURE:
+    - Understanding Identity and Security in Azure
+        - Azure Active Directory:
+            - Core directory services. Multi-factor authentication. Directory synchronization.
+        - Azure AD Domain Services:
+        - Azure AD B2C (Business-to-consumer.)
+        - Applications & Identity. 
+            - Managed Identities. Application registrations. Enterprise applications. (Third party.)
+    - Data Protection and Monitoring:
+        - Information protection. Key vault. Hardware security module. 
+        - Azure security center:
+            - Monitor VMs and apps. Visuualization through Azure monitor. Advice & alerts.
+        - Additional security services:
+            - Azure Sentinel. Azure Defender. Role-based access control.
+    - Reviewing Identity and Security Examples:
+
+- CONSIDERING OTHER AZURE SERVICES:
+    - Additional Azure Services:
+        - Media services. Mobile services. IoT. Mixed reality.
+        - Blockchain. Bot service. Search.
+    - Course Summary:
